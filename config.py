@@ -22,8 +22,8 @@ class Config(object):
     FORCE_SUBS   = os.environ.get("FORCE_SUBS", "") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
 
-    # wes response configuration     
-    WEBHOOK = bool(os.environ.get("WEBHOOK", true))
+    # web response configuration     
+    WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
 
 
 
