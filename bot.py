@@ -48,6 +48,10 @@ class Bot(Client):
             except:
                 print("Please Make This Is Admin In Your Log Channel")
 
+  async def stop(self, *args):
+        await super().stop()
+        print("Bot is stopping...")
+
 Bot().run()
 
 
