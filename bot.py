@@ -48,12 +48,11 @@ class Bot(Client):
             except:
                 print("Please Make This Is Admin In Your Log Channel")
 
-  async def stop(self, *args):
+    async def stop(self, *args):  # ✅ Correct indentation
         await super().stop()
         print("Bot is stopping...")
 
 Bot().run()
-
 
 
 
